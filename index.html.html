@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrician Business</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f0a500;
+        }
+
+        /* Main Sections */
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Buttons */
+        button {
+            display: inline-block;
+            background-color: #f0a500;
+            color: #fff;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #d18e00;
+        }
+
+        /* Services List */
+        #services ul {
+            list-style: disc;
+            padding-left: 40px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        /* Contact Form */
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 120px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            #services ul {
+                padding-left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Electrician Business</h1>
+            <p>We provide reliable electrical services for your home or business.</p>
+            <button>Get a Quote</button>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Electrical Repairs</li>
+                <li>Electrical Installations</li>
+                <li>Electrical Maintenance</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of experienced electricians dedicated to providing high-quality electrical services.</p>
+        </section>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Contact us for a quote or to schedule a service.</p>
+            <form>
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Electrician Business</p>
+    </footer>
+</body>
+</html>
